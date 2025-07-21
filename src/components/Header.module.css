@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bg-color);
+  padding: 0 16px;
+  height: 56px;
+}
+
+.leftGroup {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 38.5px;
+  height: 35px;
+  margin-right: 8px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--text-color);
+  min-width: 138px;
+  height: 24px;
+  line-height: 24px;
+}

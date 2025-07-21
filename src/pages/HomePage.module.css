@@ -1,0 +1,104 @@
+.main {
+  padding: 16px;
+  margin-top: 20px;
+}
+
+.section {
+  margin-bottom: 28.5px;
+}
+
+.newTaskButton {
+  width: 335px;
+  height: 36px;
+  padding: 8px 12px;
+  font-size: 16px;
+  background: #5F33E1;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+}
+
+.newTaskButton:hover {
+  background: #4722b6;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+
+.headerIcon {
+  width: 24px;
+  height: 24px;
+  color: var(--text-color);
+}
+
+.headerText {
+  font-family: Inter, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--text-color);
+}
+
+.filterRow {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 26px;
+}
+
+.inProgress {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.inProgressCount {
+  color: #5F33E1;
+  border-radius: 8px;
+  padding: 2px 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  margin-right: 46px;
+}
+
+.completedRow {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 28px;
+}
+
+.completed {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.completedCount {
+  color: #5F33E1;
+  border-radius: 8px;
+  padding: 2px 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+}
