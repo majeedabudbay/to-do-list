@@ -13,6 +13,8 @@ A modern, responsive task management application built with React, TypeScript, a
 
 ## Quick Start
 
+**Recommended:** For the best experience, view the app in your browser's mobile view (e.g., Chrome DevTools) and select a device like **iPhone X**. The UI is optimized for mobile screens.
+
 ### Prerequisites
 
 - Node.js (version 16 or higher)
